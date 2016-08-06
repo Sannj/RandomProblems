@@ -43,7 +43,8 @@ public class MatrixMultiplication {
             int tempSum = 0;
             for(int i = 0;i<r1;i++){
                 for(int j = 0;j<c2;j++){
-                for(int k = 0;k<r2;k++){
+                tempSum = 0;
+                    for(int k = 0;k<r2;k++){
                     tempSum = tempSum+mat1[i][k]*mat2[k][j];
                 }
                     result[i][j] = tempSum;
@@ -59,16 +60,9 @@ public class MatrixMultiplication {
                 System.out.println();
             }
 
+
         }
-
-
-
-
-
-
-
-
-
+        System.out.println("Time complexity of this algorithm will be - O(r1*c2*r2)");
     }
 
 }
