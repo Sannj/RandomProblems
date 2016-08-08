@@ -40,7 +40,7 @@ public class MatrixMultiplication {
             System.out.println("Cannot multiply");
         }
         else {
-            int tempSum = 0;
+            int tempSum;
             for(int i = 0;i<r1;i++){
                 for(int j = 0;j<c2;j++){
                 tempSum = 0;
