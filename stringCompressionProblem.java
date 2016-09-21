@@ -27,7 +27,6 @@ public class stringCompressionProblem {
 		result+=target.charAt(target.length()-1)+""+count;
 		System.out.println(result);
 		scan.close();
-
 	}
 
 }
