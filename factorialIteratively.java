@@ -6,9 +6,9 @@ public class factorialIteratively {
 
 	public static void main(String[] args) {
 		int target;
-		int product = 1;
+		long product = 1;
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter the string");
+		System.out.println("Enter the number");
 		target = scan.nextInt();
 		for(int i = target;i>1;i--){
 			product *= i;
